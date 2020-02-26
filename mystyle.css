@@ -2,6 +2,7 @@ body{
     background-color: black;
 }
 div{
+    background-color: aqua;
     position: fixed;
     bottom: 0px;
     left: 39px;
