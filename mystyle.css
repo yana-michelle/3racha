@@ -2,13 +2,19 @@ body{
     background-color: black;
 }
 h1 {
+    text-align: center
 color: antiquewhite;
     font-family:cursive;
     font-size: 20px;
 }
 
 p {
+    width: 20px;
     border: 2px solid grey;
+    padding: 30px;
+    margin: 50px;
+}
+p{
 	color: antiquewhite;
     font-family:serif;
     font-size: 15px;
