@@ -9,6 +9,7 @@ div{
     top: 0px;
     
 }
+
 h1 {
     text-align: center;
     color: antiquewhite;
@@ -16,6 +17,12 @@ h1 {
     font-size: 200%;
 }
 
+h2{
+    text-align: left;
+    color: lightgray;
+    font-family: fantasy;
+    font-size: 200%
+}
 p {
     width: 30px;
     border: 2px solid grey;
