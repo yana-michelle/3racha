@@ -2,9 +2,9 @@ body{
     background-color: black;
 }
 h1 {
-    text-align: center
-color: antiquewhite;
-    font-family:cursive;
+    text-align: center;
+    color: antiquewhite;
+    font-family:fantasy;
     font-size: 20px;
 }
 
@@ -16,7 +16,7 @@ p {
 }
 p{
 	color: antiquewhite;
-    font-family:serif;
+    font-family:sans-serif;
     font-size: 15px;
 }
 
