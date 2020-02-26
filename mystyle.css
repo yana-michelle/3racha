@@ -1,6 +1,11 @@
 body{
     background-color: black;
 }
+div{
+    position: fixed;
+    bottom: 0px;
+    
+}
 h1 {
     text-align: center;
     color: antiquewhite;
