@@ -1,17 +1,16 @@
 body {
     background-color: black;
 }
-div {
-    position: fixed;
-    bottom: 0px;
-    left: 39px;
-    right: 39px;
-    top: 0px;
+.container {
+    
+    border: 1px solid white;
     
 }
 
+.nav {
+    text-decoration: underline;
+}
 h1 {
-    position: fixed;
     bottom: 10px;
     left: 45px;
     right 45px;
@@ -23,6 +22,10 @@ h1 {
 }
 
 h2 {
+    bottom: 15px;
+    left: 45px;
+    right: 45px;
+    top: 15px;
     text-align: left;
     color: white;
     font-family: fantasy;
@@ -30,12 +33,18 @@ h2 {
 }
 
 h3 {
-    text-align: left;
+    position: relative;
+    text-align: center;
     color: antiquewhite;
     font-family: fantasy;
+    font-size: 300%;
+}
+.cb97 {
+    text-align: justify;
+    color: darkred;
+    font-family: monospace;
     font-size: 200%;
 }
-
 h4 {
     text-align: left;
     color: antiquewhite;
@@ -43,17 +52,20 @@ h4 {
     font-size: 150%;
 }
 p {
-    width: 30px;
-    border: 2px solid grey;
-    padding: 40px;
-    margin: 50px;
 	color: antiquewhite;
-    font-family:sans-serif;
-    font-size: 90%;
+    font-family:fantasy;
+    font-size: 190%;
 }
 
+li{
+    color: lightpink;
+    text-align: left;
+}
 a {
-	
+    color: darkolivegreen;
+	text-align: left;
+    font-family: monospace;
+    font-size: 50%;
 }
 
 .header {
