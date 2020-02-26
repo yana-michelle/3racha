@@ -11,6 +11,11 @@ div {
 }
 
 h1 {
+    position: fixed;
+    bottom: 10px;
+    left: 45px;
+    right 45px;
+    top: 10px;
     text-align: center;
     color: antiquewhite;
     font-family:fantasy;
@@ -40,7 +45,7 @@ h4 {
 p {
     width: 30px;
     border: 2px solid grey;
-    padding: 30px;
+    padding: 40px;
     margin: 50px;
 	color: antiquewhite;
     font-family:sans-serif;
