@@ -2,7 +2,6 @@ body{
     background-color: black;
 }
 div{
-    background-color: aqua;
     position: fixed;
     bottom: 0px;
     left: 39px;
@@ -18,6 +17,7 @@ h1 {
 }
 
 p {
+    background-color: aqua;
     width: 20px;
     border: 2px solid grey;
     padding: 30px;
