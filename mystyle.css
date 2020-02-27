@@ -15,6 +15,9 @@ body {
     text-decoration: underline;
 }
 h1 {
+    padding: inherit;
+    margin: 50px;
+    bottom: 10px;
     text-align: center;
     color: antiquewhite;
     font-family:fantasy;
@@ -22,12 +25,15 @@ h1 {
 }
 
 h2 {
+    margin: auto;
+    padding: inherit;
+    text-decoration: overline;
     bottom: 15px;
     left: 45px;
     right: 45px;
     top: 15px;
     text-align: left;
-    color: white;
+    color: darkred;
     font-family: fantasy;
     font-size: 200%;
 }
@@ -41,18 +47,30 @@ h3 {
 }
 
 .cb97 {
+    margin: auto;
+    padding: inherit;
     text-align: left;
     color: darkred;
     font-family: monospace;
-    font-size: 200%;
+    font-size: 170%;
 }
 .spearB {
+    margin: auto;
+    padding: inherit;
     text-align: left;
     color: darkred;
     font-family: monospace;
     font-size: 170%;
 }
 
+.jOne {
+    margin: auto;
+    padding: inherit;
+    font-family: monospace;
+    font-size: 170%;
+    color: darkred;
+    text-align: left;
+}
 h4 {
     text-align: left;
     color: antiquewhite;
@@ -65,23 +83,48 @@ p {
     font-size: 190%;
 }
 
-li{
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+li {
+    float: left;
+    clear: left;
     color: lightpink;
     text-align: left;
 }
+
+li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: darkred;
+}
 a {
+    margin: auto;
+    padding: 10px;
     color: darkolivegreen;
 	text-align: left;
     font-family: monospace;
     font-size: 50%;
 }
 
-.header {
-	
-}
 
-.footer {
-	
+footer {
+	margin: auto;
+    padding: 10xp;
+    color: antiquewhite;
+    text-align: justify;
+    font-family: fantasy;
+    font-size: 100%
 }
 
 hr {
@@ -93,8 +136,9 @@ button {
 }
 
 img {
-	float: left;
-    position: static;
+    position:relative;
+    padding: 50px;
+    margin: auto;
     border: 2px solid white;
 }
 
