@@ -7,6 +7,10 @@ body {
     
 }
 
+.boxBoxGrey {
+    border: 1px solid dimgray;
+    background-color: dimgray;
+}
 .nav {
     text-decoration: underline;
 }
@@ -40,11 +44,12 @@ h3 {
     font-size: 300%;
 }
 .cb97 {
-    text-align: justify;
+    text-align: left;
     color: darkred;
     font-family: monospace;
     font-size: 200%;
 }
+
 h4 {
     text-align: left;
     color: antiquewhite;
