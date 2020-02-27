@@ -4,7 +4,7 @@ body {
 .container {
     
     border: 1px solid white;
-    
+    text-align: center;
 }
 
 .boxBoxGrey {
@@ -15,10 +15,6 @@ body {
     text-decoration: underline;
 }
 h1 {
-    bottom: 10px;
-    left: 45px;
-    right 45px;
-    top: 10px;
     text-align: center;
     color: antiquewhite;
     font-family:fantasy;
@@ -43,11 +39,18 @@ h3 {
     font-family: fantasy;
     font-size: 300%;
 }
+
 .cb97 {
     text-align: left;
     color: darkred;
     font-family: monospace;
     font-size: 200%;
+}
+.spearB {
+    text-align: left;
+    color: darkred;
+    font-family: monospace;
+    font-size: 170%;
 }
 
 h4 {
@@ -90,6 +93,8 @@ button {
 }
 
 img {
-	
+	float: left;
+    position: static;
+    border: 2px solid white;
 }
 
