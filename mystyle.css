@@ -137,6 +137,7 @@ button {
 
 img {
     position:relative;
+    text-align: center;
     padding: 50px;
     margin: auto;
     border: 2px solid white;
