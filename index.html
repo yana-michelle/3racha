@@ -18,6 +18,27 @@ $(document).ready(function(){
 		<meta keywords="">
 		<title>3RACHA</title>
         <link rel="stylesheet" type="text/css" href="mystyle.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
 	</head>
 	<body>
         <div class="container">
@@ -25,7 +46,8 @@ $(document).ready(function(){
         <p>3Racha is a K-Rap group, made from the rappers of the Kpop group Stray Kids under the label JYP Entertainment</p>
     <button id="hide">Hide</button>
 <button id="show">Show</button>
-        <div class="nav"><nav><p><h2>The group consists of three members, ranging from ages 20 to 23.</h2></p><ul><h4><li><a href="#cb">CB97</a></li>
+       <div id="flip">Extra Info</div>
+<div id="panel"><p><h2>The group consists of three members, ranging from ages 20 to 23.</h2></p></div><ul><h4><li><a href="#cb">CB97</a></li>
             <li><a href="#spearB">SpearB</a></li>
             <li><a href="#jOne">J.One</a></li></h4></ul></nav></div>
           <div class="threeRacha"><br><h2>3Racha first put out music in January of 2017, before they debuted Stray Kids. CB97 personally chose the two other rappers to be in this group with him. CB97, J.One, and SpearB have all written and composed all their songs themselves, putting out music they wanted to make without interference from any outiders. 3Racha can currently only be found on Youtube and SoundCloud.</h2></div>
