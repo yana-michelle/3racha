@@ -1,6 +1,25 @@
+@font-face {
+    font-family: 'abeezeeregular';
+    src: url('abeezee-regular-webfont.woff2') format('woff2'),
+         url('abeezee-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'intro_head_rbase';
+    src: url('introheadr-base-webfont.woff2') format('woff2'),
+         url('introheadr-base-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
     background-color: black;
 }
+
 .container {
     
     border: 1px solid white;
@@ -20,7 +39,7 @@ h1 {
     bottom: 10px;
     text-align: center;
     color: antiquewhite;
-    font-family:fantasy;
+    font-family:'intro_head_rbase';
     font-size: 200%;
 }
 
@@ -34,7 +53,7 @@ h2 {
     top: 15px;
     text-align: left;
     color: darkred;
-    font-family: fantasy;
+    font-family:'abeezeeregular';
     font-size: 200%;
 }
 
