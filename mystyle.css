@@ -1,3 +1,8 @@
+html{
+     font-size: 10px;
+  margin: 0;
+  font-family: sans-serif;
+}
 @font-face {
     font-family: 'abeezeeregular';
     src: url('abeezee-regular-webfont.woff2') format('woff2'),
@@ -32,6 +37,10 @@ body {
 }
 .nav {
     text-decoration: underline;
+}
+
+title{
+    font-family: 'Trade Winds', cursive;
 }
 h1 {
     padding: inherit;
