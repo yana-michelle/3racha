@@ -46,7 +46,6 @@ title{
 .kRap{
 	text-align: center;
 	font: "introheadr base";
-	color: gray;
 	font-size: 10px;
 }
 
@@ -54,28 +53,29 @@ h1 {
     padding: inherit;
     margin: 50px;
     bottom: 10px;
-    text-align: left;
-    color:darkred;
+    text-align: center;
+    color: red;
     font-family:"introheadr base";
-    font-size: 15px;
+    font-size: 200%;
 }
 
 h2 {
-    margin: 10px;
-    padding: 20px;
+    margin: auto;
+    padding: inherit;
+    text-decoration: overline;
     bottom: 15px;
     left: 45px;
     right: 45px;
     top: 15px;
-    text-align: center;
-    color:darkred;
-    font-family:"introheadr base";
-    font-size: 10px;
+    text-align: left;
+    color: darkred;
+    font-family:'abeezeeregular';
+    font-size: 200%;
 }
 
 h3 {
     text-align: center;
-    color: darkred;
+    color: antiquewhite;
     font-family:"BebasNeue Regular";
     font-size: 300%;
 	margin-bottom: 3px;
@@ -193,8 +193,8 @@ button {
 	text-align: center;
 	margin-bottom: 10px;
 	margin-top: 10px;
-	margin-left: 00px;
-	margin-right: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .jisung{

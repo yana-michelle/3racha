@@ -42,23 +42,6 @@ h2{
 	margin-top: 50px;
 }
 
-.description{
-	text-align: center;
-	margin: auto;
-	font: "introrustg base2";
-	font-size: 30px;
-	color: darkred;
-}
-
-.contact{
-	text-align: center;
-	margin-bottom: 20px;
-	margin-left: 450px;
-	font: "introrustg base2";
-	font-size: 30px;
-	color: darkred;
-}
-
 h3{ 
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -82,57 +65,8 @@ h4{
 	color: darkred;
 
 }
-
-h5{
-	text-align: left;
-	font-family: "introrustg base2";
-	font-size: 30px;
-	color: gray;
-}
 .cb97Pic {
 	text-align: center;
 	margin-top: 25px;
 	margin-bottom: inherit;
-}
-
-.changbinPic{
-	text-align: center;
-	margin-top: 25px;
-	margin-bottom: inherit;
-}
-
-.jisungPic{
-	text-align: center;
-	margin-top: 25px;
-	margin-bottom: inherit;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    
-}
-
-li {
-    text-align: left;
-	margin-bottom: 20px;
-}
-
-li a {
-    display: block;
-    color: gray;
-    text-align: left;
-    padding: 4px;
-    text-decoration: none;
-}
-
-a {
-    margin: auto;
-    padding: 10px;
-    color: gray;
-	text-align: left;
-    font-family: monospace;
-    font-size: 90%;
 }
