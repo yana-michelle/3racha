@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="pagetwo.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="titleContainer"><h2>CONTACT</h2></div>
+</body>
+</html>
