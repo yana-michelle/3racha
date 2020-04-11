@@ -215,12 +215,4 @@ button {
 	padding: 0px;
 }
 
-footer{
-	margin-top: 300px;
 
-}
-.end{
-	margin: 40px;
-	font: "introheadr base";
-	font-size: 10px;
-}
