@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	    font-size: 10px;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body{
+	background: #000000
+}
+
+.titleContainer{
+	border:1px solid #BBBBBB;	
+}
+
+h2{
+	padding: inherit;
+	font-size: 40px;
+	margin: 10px;
+	font-family:"introheadr base";
+	color: red;
+	text-align:center;
+
+}
+
+.paragraphOne{
+	border: solid #BBBBBB;
+	align: left;
+	margin-top: 50px;
+	margin-left: 0px;
+	margin-right: 750px;
+	margin-bottom: auto;
+	
+}
+h3{ 
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: left;
+	font-family: "introrustg base2";
+	font-size: 30px;
+	color: #FF2B2F;
+	
+}
