@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	        <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
+        <script src="assets/jquery-3.4.1.min.js"></script>
+        <script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+</script>
+		<meta charset="utf-8">
+		<meta description="">
+		<meta keywords="">
+		<title>3RACHA</title>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+<style> 
+#panel, #flip {
+  padding: 50px;
+  text-align: center;
+  background-color:lightgray;
+  border: solid 1px darkred;
+}
+
+#panel {
+  padding: 40px;
+  display: none;
+}
+</style>
+</head>
+	<body>
+	<h2>About Stray Kids</h2>
+	</body>
+</html>
